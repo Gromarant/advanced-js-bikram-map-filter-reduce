@@ -29,15 +29,7 @@ En esta ocasión, el bikram se dividirá en :crossed_swords: Pair Programming :c
 ]
 ```
 
-### Filter ###
-
-- [ ] 3.- Crea un segundo array que contenga solo los los impares 
-
-```
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-```
-
-- [ ] 4.- Dado el  array **staff**, crear un segundo array que forme frases como en el ejemplo accediendo a las propiedades del objeto proporcionado:
+- [ ] 3.- Dado el  array **staff**, crear un segundo array que forme frases como en el ejemplo accediendo a las propiedades del objeto proporcionado:
 ```
 const staff = [
   {
@@ -65,7 +57,7 @@ const staff = [
 // Resultado esperado
 /*
   [
-    'Pepe es TheBoss y le gusta leer y ver pelis',
+    'Pepe es The Boss y le gusta leer y ver pelis',
     'Ana es becaria y le gusta nadar y bailar',
     'Luis es programador y le gusta dormir y comprar',
     'Ana es becaria y le gusta nadar y bailar',
@@ -74,8 +66,42 @@ const staff = [
 */
 ```
 
+### Filter ###
 
-- [ ] 5.- Dado el array **inventory**, devolver un array con los nombres de los elementos que valgan más de 300 euros.
+- [ ] 4.- Crea un segundo array result4 a partir del array numbers2 que devuelva solo los impares
+
+```
+const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```
+
+- [ ] 5.- Dado el array foodList2, genera un segundo array result5 que filtre los platos veganos y saque una sentencia como la del ejemplo
+```
+['Que rico Tempeh me voy a comer!',
+'Que rica Tofu burguer me voy a comer!']
+```
+
+```
+const foodList2 =[
+{
+  name: 'Tempeh',
+  isVeggie: true
+},
+{
+  name: 'Cheesbacon burguer',
+  isVeggie: false
+},
+{
+  name: 'Tofu burguer',
+  isVeggie: true
+},
+{
+  name: 'Entrecot',
+  isVeggie: false
+}];
+```
+
+
+- [ ] 6.- Dado el array **inventory**, devolver un array con los nombres de los elementos que valgan más de 300 euros.
 
 ```
 
@@ -85,7 +111,7 @@ const inventory = [
     price: 199
   },
   {
-    name: 'TV Samsung,
+    name: 'TV Samsung',
     price: 459
   },
   {
